@@ -1,0 +1,17 @@
+En Python, el flujo de ejecución es lineal (de arriba hacia abajo) a menos que introduzcamos estructuras de control. 
+La documentación oficial de Python 3.14.3 (Sección 4.1: if Statements) define cómo el intérprete evalúa expresiones 
+booleanas para bifurcar el camino del código.
+1. Conceptos del módulo
+
+    La sentencia if: Ejecuta un bloque de código solo si una condición es verdadera (True).
+
+    La cláusula else: Proporciona un camino alternativo si la condición es falsa (False).
+
+    La cláusula elif (else if): Permite encadenar múltiples condiciones de forma jerárquica.
+
+    Operadores de comparación: == (igualdad), != (distinto), > (mayor), < (menor), >= y <=.
+
+    Operadores lógicos: and, or, not (para combinar múltiples condiciones).
+
+    La Indentación: En Python, el espacio en blanco al inicio de la línea no es estético, es sintáctico. 
+    Define qué código pertenece a qué bloque.

@@ -1,0 +1,34 @@
+Si las listas son cajones numerados, los diccionarios son armarios con etiquetas personalizadas. 
+Según la documentación de Python 3.14.3 (Sección 5.5: Dictionaries), 
+estos son mapas de llave-valor extremadamente rápidos y eficientes.
+1. Conceptos del módulo
+
+    Diccionarios (dict): Colecciones no ordenadas por índice, sino por llaves únicas. Se definen con llaves {}.
+
+    Llave (key): El nombre de la etiqueta (debe ser inmutable, como un string o número).
+
+    Valor (value): El dato guardado bajo esa etiqueta.
+
+    Métodos clave:
+
+        get(key, default): Busca una clave y devuelve su valor; si no existe, devuelve un valor 
+        predeterminado en lugar de un error.
+        
+        keys(): Devuelve una vista de todas las claves del diccionario.
+        
+        values(): Devuelve una vista de todos los valores.
+        
+        items(): Devuelve una vista de pares (clave, valor).
+       
+        pop(key): Elimina una clave específica y devuelve su valor.
+        
+        popitem(): Elimina y devuelve el último par clave:valor insertado.
+       
+        update(dict2): Actualiza el diccionario con pares clave-valor de otro diccionario o iterable.
+        
+        clear(): Elimina todos los elementos del diccionario.
+        
+        fromkeys(keys, value): Crea un nuevo diccionario con las claves especificadas y un valor 
+        predeterminado.
+
+    Conjuntos (set): Colecciones de elementos únicos (no permiten duplicados).

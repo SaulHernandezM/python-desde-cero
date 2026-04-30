@@ -1,0 +1,32 @@
+1. Conceptos del módulo
+
+    Listas (list): Colecciones ordenadas de elementos que pueden cambiar (mutables). 
+    Se definen con corchetes [].
+
+    Tuplas (tuple): Similares a las listas, pero no pueden cambiar después de creadas (inmutables). 
+    Se definen con paréntesis ().
+
+    Indexación: Acceder a un elemento por su posición (empezando siempre desde 0).
+
+        Métodos Listas:
+        Las listas permiten modificar sus elementos, añadir o eliminar datos. 
+
+        append(x): Agrega un elemento x al final.
+        len(lista): Devuelve cuántos elementos hay.
+        extend(iterable): Añade todos los elementos de un iterable (lista, tupla) al final.
+        insert(i, x): Inserta el elemento x en la posición indicada por i.
+        remove(x): Elimina el primer elemento que coincida con el valor x. Lanza error si no existe.
+        pop([i]): Elimina y devuelve el elemento en la posición i. Si no se indica, elimina el último.
+        clear(): Elimina todos los elementos de la lista.
+        index(x[, start[, end]]): Devuelve el índice del primer elemento encontrado con valor x.
+        count(x): Devuelve el número de veces que aparece x en la lista.
+        sort(key=None, reverse=False): Ordena los elementos de la lista in-place (modifica la lista original).
+        reverse(): Invierte el orden de los elementos in-place.
+        copy(): Devuelve una copia superficial de la lista.
+
+        Métodos de Tuplas (Inmutables):
+        Al ser inmutables, las tuplas no permiten modificaciones, lo que las hace más rápidas y seguras 
+        para datos fijos. 
+
+        count(x): Cuenta cuántas veces aparece el valor x en la tupla.
+        index(x): Busca el valor x y devuelve la posición de su primera aparición.

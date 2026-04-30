@@ -1,0 +1,9 @@
+1. Conceptos del módulo
+    Ciclo while: Repite un bloque de código mientras una condición sea verdadera. 
+        Es ideal cuando no sabemos cuántas veces se repetirá algo (ej: "hasta que el usuario escriba salir").
+    Ciclo for: Itera sobre una secuencia (una lista, un rango de números, una cadena de texto). 
+        Es ideal cuando sabemos cuántas veces queremos repetir la tarea.
+    Función range(): Genera una secuencia de números. Muy usada con for.
+    Sentencias de Control:
+        break: Rompe el ciclo inmediatamente.
+        continue: Salta a la siguiente iteración del ciclo.

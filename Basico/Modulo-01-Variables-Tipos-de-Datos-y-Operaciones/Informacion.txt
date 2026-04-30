@@ -1,0 +1,13 @@
+En Python, todo es un objeto. Una variable es simplemente un nombre que apunta a un objeto en la memoria del computador. 
+Según la documentación oficial (Reference: Data Model), los tipos de datos básicos son la base de cualquier estructura lógica.
+1. Conceptos del módulo
+
+    Asignación de variables: Se usa el signo = para vincular un nombre a un valor.
+
+    Tipos Numéricos (int, float): Para cálculos matemáticos precisos o de punto flotante.
+
+    Cadenas de texto (str): Secuencias de caracteres delimitadas por comillas simples o dobles.
+
+    Booleanos (bool): Valores lógicos True o False, fundamentales para la toma de decisiones.
+
+    Función print() y input(): Herramientas básicas para mostrar información en consola y recibir datos del usuario

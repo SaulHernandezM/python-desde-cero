@@ -1,0 +1,14 @@
+Hasta ahora, tu código ha sido como una receta de cocina que se lee de arriba hacia abajo. 
+Si quieres hacer la misma tarea dos veces, tienes que copiar y pegar el código. Las funciones cambian eso.
+ Una función es un bloque de código con nombre que realiza una tarea específica. 
+ Su lema es DRY (Don't Repeat Yourself).
+1. Conceptos del módulo
+
+    Definición (def): Usamos esta palabra clave para crear la función.
+
+    Parámetros: Son las variables que la función recibe para trabajar (los "ingredientes").
+
+    Argumentos: Son los valores reales que le pasas cuando la llamas.
+
+    Retorno (return): Es el resultado que la función te devuelve. Ojo: print() muestra algo en pantalla, 
+    return entrega un valor para ser usado en el resto del programa.
